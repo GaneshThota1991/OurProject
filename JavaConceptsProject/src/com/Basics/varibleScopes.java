@@ -13,7 +13,7 @@ public class varibleScopes {
   static boolean bb;
   
 	public void localMth() {
-		int g ; //local varible 
+		int a = 10 ; //local variable 
 		System.out.println(a);
 
 	}
