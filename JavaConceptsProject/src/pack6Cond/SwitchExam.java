@@ -19,13 +19,14 @@ public class SwitchExam {
 		case 3:
 			System.out.println("third");
 			break;
-		default:
+		default:   
 			System.out.println("unknow");
 			break;
 		}
 	}
 	public static void main(String[] args) {
 		new SwitchExam().m(1);
+		new IfExam().m1();
 	}
 
 }
