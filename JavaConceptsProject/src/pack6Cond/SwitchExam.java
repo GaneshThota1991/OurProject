@@ -25,8 +25,8 @@ public class SwitchExam {
 		}
 	}
 	public static void main(String[] args) {
-		new SwitchExam().m(1);
-		new IfExam().m1();
+		new SwitchExam().m(2);
+//		new IfExam().m1();
 	}
 
 }
