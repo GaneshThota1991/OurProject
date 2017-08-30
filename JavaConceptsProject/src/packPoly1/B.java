@@ -6,12 +6,13 @@ public class B extends A {
 		System.out.println(a+b+c+d);
 	}
 	
-	public void bikeDesign() {
+	public void bikeDesign() {    // Method over-riding.
 		System.out.println("100 cc child implementation");
 	}
 	public static void main(String[] args) {
 		new B().add(11, 22,33,44);
 		new B().bikeDesign();
 		new A().bikeDesign();
+		new A().bike1Design();
 	}
 }

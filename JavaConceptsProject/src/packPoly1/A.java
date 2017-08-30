@@ -15,7 +15,9 @@ public class A {
 	public void bikeDesign() {
 		System.out.println("50cc parent implementation");
 	}
-	
+	public void bike1Design() {
+		System.out.println("150cc parent implementation");
+	}
 	public static void main(String[] args) {
 		new A().add(11, 22);
 		new A().add(11, 22,33);
